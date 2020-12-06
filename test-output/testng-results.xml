@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="158622" started-at="2020-12-06T19:42:28Z" finished-at="2020-12-06T19:45:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="158622" started-at="2020-12-06T19:42:28Z" finished-at="2020-12-06T19:45:06Z">
+      <class name="Scenario2_BrokenLinks">
+        <test-method status="PASS" signature="chromeIncognitoMode()[pri:0, instance:Scenario2_BrokenLinks@57e1b0c]" name="chromeIncognitoMode" is-config="true" duration-ms="11279" started-at="2020-12-06T19:42:28Z" finished-at="2020-12-06T19:42:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeIncognitoMode -->
+        <test-method status="PASS" signature="assertPagetitle()[pri:0, instance:Scenario2_BrokenLinks@57e1b0c]" name="assertPagetitle" duration-ms="85" started-at="2020-12-06T19:42:39Z" finished-at="2020-12-06T19:42:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertPagetitle -->
+        <test-method status="PASS" signature="extractHyperlink()[pri:1, instance:Scenario2_BrokenLinks@57e1b0c]" name="extractHyperlink" duration-ms="146486" started-at="2020-12-06T19:42:39Z" finished-at="2020-12-06T19:45:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractHyperlink -->
+        <test-method status="PASS" signature="endsession()[pri:0, instance:Scenario2_BrokenLinks@57e1b0c]" name="endsession" is-config="true" duration-ms="741" started-at="2020-12-06T19:45:05Z" finished-at="2020-12-06T19:45:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endsession -->
+      </class> <!-- Scenario2_BrokenLinks -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
